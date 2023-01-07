@@ -1,9 +1,6 @@
 package com.example.kaddemproject.Models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
@@ -14,6 +11,7 @@ import java.util.Date;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 @Entity
 public class Contrat implements Serializable {
 
